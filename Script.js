@@ -1,5 +1,5 @@
 
-const API_key="Paste our API Key Here";
+const API_key="d9212abaccf547669bfa0dd211fca739";
 // by login to https://newsapi.org/ generate api key and use it for your File.
 
 window.addEventListener("load",() => fetchNews("India"));
