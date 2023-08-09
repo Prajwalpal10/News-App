@@ -1,16 +1,13 @@
-// const API="d9212abaccf547669bfa0dd211fca739";
-// const url="https://newsapi.org/v2/everything?q="
-//const API="907f452ee551a9768d9d1438aa1b9a00";
-//const url="https://gnews.io/api/v4/search?q="
-//https://gnews.io/api/v4/search?q=India&apikey=907f452ee551a9768d9d1438aa1b9a00
 
+const API_key="Paste our API Key Here";
+// by login to https://newsapi.org/ generate api key and use it for your File.
 
 window.addEventListener("load",() => fetchNews("India"));
 
 
 async function fetchNews(query){
 
-  const res= await fetch(`https://newsapi.org/v2/everything?q=${query}&apikey=d9212abaccf547669bfa0dd211fca739`);
+  const res= await fetch(`https://newsapi.org/v2/everything?q=${query}&apikey=${API_key}`);
    const data=await res.json();
    console.log(data)
    binddata(data.articles);
