@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT News Articals</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    
+       <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="company-logo" id="home" onclick="reload()">
+                <img src="/Assets/Logo-1.png" alt="">
+            </a>
+            
+          
+        <div class="nav-links ">
+            <ul class="nav-bar flex">
+                <li class="li-links nav-items" id="finance" onclick="onNavClick('finance')">Finance</li>
+                <li class="li-links nav-items" id="politics" onclick="onNavClick('politics')">Politics</li>
+                <li class="li-links nav-items" id="sport" onclick="onNavClick('sport')">Sports</li>
+                <li class="li-links nav-items" id="tech" onclick="onNavClick('tech')">Technology</li>
+              </ul>
+        </div>
+       
+       
+       <div id="search">
+            <input id="search-text" type="search" placeholder="Search here ...">
+            <button id="search-btn" class="btn-search" onclick="searchQuery()">Search</button>
+       </div>
+       <div   class="bx bx-menu" id="menu-icon"></div>
+        
+
+     </div>      
+        
+    </nav>
+            <main>
+
+                <div class="card-container container flex" id="card-container">
+                                                          
+                </div>
+                               
+            </main>
+      <template id="news-card">
+        <div class="card">
+            <div class="header">
+                <img src="https://placehold.co/400x200" alt="" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title" class="title">News Title</h3>
+                <h6 id="news-source" class="source">Gadeget and Date:-08/08/2023</h6>
+                <p id="news-desc" class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis blanditiis consequatur nemo harum voluptates vel rem doloremque eaque voluptatibus. Iure quaerat numquam pariatur corrupti nihil ut porro dolor. Odio eius quas autem?</p>
+            </div>
+            
+        </div>
+      </template>
+       
+    
+
+    <script src="Script.js"></script>
+</body>
+</html>
