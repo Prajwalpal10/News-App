@@ -27,6 +27,8 @@ GT-News is a cutting-edge news application designed to keep you updated with the
 
 
 ## API Reference
+used NewsApi but this Api only Works for Localhot and not Suitable for Production/Deployment.
+be Carefull !!
 
 #### Get all items
 
