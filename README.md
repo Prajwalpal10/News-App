@@ -45,5 +45,7 @@ GT-News is a cutting-edge news application designed to keep you updated with the
 
 
 ## Demo
+![image](https://github.com/Prajwalpal10/News-App/assets/61036811/fb039e2a-6a83-47f7-9830-b96b994c4167)
+
 
 Demo Video Link :- https://shorturl.at/gikGO
